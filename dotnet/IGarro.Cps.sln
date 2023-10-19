@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cps.Sports.Application.Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cps.Sports.Application.Domain", "Cps.Sports\Cps.Sports.Domain\Cps.Sports.Application.Domain.csproj", "{FE95A111-CC20-4DBE-ADE0-4A25B6286E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cps.Framework", "Framework\Cps.Framework.csproj", "{E2A95C05-3AB8-4F12-89AE-44EACF5623AC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cps.Sports.Persistence", "Cps.Sports\Cps.Sports.Persistence\Cps.Sports.Persistence.csproj", "{1F47A7C3-AF6A-44BA-9409-F45F48143A62}"
 EndProject
 Global
@@ -36,10 +34,6 @@ Global
 		{FE95A111-CC20-4DBE-ADE0-4A25B6286E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE95A111-CC20-4DBE-ADE0-4A25B6286E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE95A111-CC20-4DBE-ADE0-4A25B6286E0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2A95C05-3AB8-4F12-89AE-44EACF5623AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2A95C05-3AB8-4F12-89AE-44EACF5623AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2A95C05-3AB8-4F12-89AE-44EACF5623AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2A95C05-3AB8-4F12-89AE-44EACF5623AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1F47A7C3-AF6A-44BA-9409-F45F48143A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F47A7C3-AF6A-44BA-9409-F45F48143A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F47A7C3-AF6A-44BA-9409-F45F48143A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
