@@ -4,6 +4,59 @@
     "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Application\\Cps.Sports.Application.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj",
+        "projectName": "Cps.Persistence",
+        "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Zaky7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zaky7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Application\\Cps.Sports.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -17,15 +70,19 @@
           "C:\\Users\\Zaky7\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\Cps.Sports.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\Cps.Sports.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,8 +92,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "MassTransit": {
               "target": "Package",
@@ -72,24 +129,133 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj",
+        "projectName": "Cps.Sports.Application.Domain",
+        "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj",
+        "packagesPath": "C:\\Users\\Zaky7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zaky7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\Cps.Sports.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\Cps.Sports.Persistence.csproj",
+        "projectName": "Cps.Sports.Persistence",
+        "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\Cps.Sports.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Zaky7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zaky7\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj"
+              },
+              "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj": {
+                "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

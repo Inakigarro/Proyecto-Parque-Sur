@@ -5,6 +5,9 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using MassTransit;
+using Microsoft.Extensions.DependencyInjection;
+using Cps.Sports.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace Cps.Sports.Application
 {
@@ -39,6 +42,9 @@ namespace Cps.Sports.Application
                             cfg.ConfigureEndpoints(context);
                         });
                     });
+
+                    services.AddDbContext<CpsSportsDbContext>(opts =>
+                        opts.UseSqlServer());
                 });
     }
 }
