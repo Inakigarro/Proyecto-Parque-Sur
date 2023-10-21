@@ -1,5 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cps.Sports.Domain\Cps.Sports.Application.Domain.csproj" />
+    <ProjectReference Include="..\..\Abstractions\Cps.Persistence\Cps.Persistence.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

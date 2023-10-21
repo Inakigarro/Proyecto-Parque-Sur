@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Cps.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cps.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cps.Persistence.dll": {}
+        }
+      },
+      "Cps.Sports.Application.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cps.Sports.Application.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cps.Sports.Application.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Cps.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../../Abstractions/Cps.Persistence/Cps.Persistence.csproj",
+      "msbuildProject": "../../Abstractions/Cps.Persistence/Cps.Persistence.csproj"
+    },
+    "Cps.Sports.Application.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cps.Sports.Domain/Cps.Sports.Application.Domain.csproj",
+      "msbuildProject": "../Cps.Sports.Domain/Cps.Sports.Application.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Cps.Persistence >= 1.0.0",
+      "Cps.Sports.Application.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Zaky7\\.nuget\\packages\\": {}
@@ -31,7 +66,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Abstractions\\Cps.Persistence\\Cps.Persistence.csproj"
+            },
+            "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj": {
+              "projectPath": "C:\\Users\\Zaky7\\Documents\\Proyecto Parque Sur\\dotnet\\Cps.Sports\\Cps.Sports.Domain\\Cps.Sports.Application.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
